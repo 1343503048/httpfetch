@@ -13,5 +13,5 @@ public interface AlarmJobApi {
 
     @HttpApi(method = "POST", headers = @Header(key = "Content-type", value = "application/json"), timeout = 2000, url = "http://alert.s.qima-inc.com/api/v1/alert")
     String alert(@RequestBody Map<String, Object> param);
-
+    int i = 0;
 }
